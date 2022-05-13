@@ -1,5 +1,6 @@
 #!/bin/sh
-
+set -x
+set -v
 # escape url
 _escurl() { echo $1 | sed 's|/|%2F|g' ;}
 # substitute environment variables in file
