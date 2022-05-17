@@ -1,5 +1,4 @@
 #!/bin/sh
-<<<<<<< HEAD
 
 if [ $# -gt 0 ]
   then
