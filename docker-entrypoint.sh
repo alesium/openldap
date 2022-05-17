@@ -5,10 +5,6 @@ if [ $# -gt 0 ]
     exec "$@"
 fi
 
-=======
-set -x
-set -v
->>>>>>> refs/remotes/origin/main
 # escape url
 _escurl() { echo $1 | sed 's|/|%2F|g' ;}
 # substitute environment variables in file
